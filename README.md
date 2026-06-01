@@ -1,4 +1,4 @@
-# 🔋 Battery Electrode & Binder Material Analysis
+<h1 align="center">🔋 Battery Electrode & Binder Material Analysis </h6> 
 
 **Author:** Alwin Alexander Rajan  
 **Background:** MSc Materials Engineering, Chalmers University of Technology  
@@ -6,7 +6,8 @@
 
 ---
 
-## 📋 Project Overview
+## <h1 align="center">📋 Project Overview </h6> 
+
 
 This repository contains a complete Python-based electrochemical data analysis pipeline for comparing binder materials in lithium-ion battery electrodes. The analysis covers:
 
@@ -32,58 +33,7 @@ During my Master's thesis at Chalmers, I synthesised and evaluated a **fast-curi
 
 **Chemistries tested:** LFP (LiFePO₄), LFMP (LiFe₀.₄Mn₀.₆PO₄), NMC (LiNi₀.₆Mn₀.₂Co₀.₂O₂)
 
----
 
-## 📁 Project Structure
-
-```
-battery_project/
-│
-├── data/
-│   ├── cycling_data.csv           # Cycling performance data (all chemistries & binders)
-│   └── charge_discharge_curves.csv # Voltage-capacity profiles
-│
-├── plots/                          # All generated plots (PNG)
-│
-├── 01_capacity_fade_analysis.py   # Capacity fade, SOH, degradation modelling
-├── 02_dqdv_analysis.py            # Differential capacity & voltage profiles
-├── 03_efficiency_resistance.py    # Coulombic efficiency, DCIR, dashboard
-├── 04_statistical_analysis.py     # Rate capability, statistics, radar chart
-├── generate_data.py               # Synthetic dataset generation
-├── run_all.py                     # Run complete analysis pipeline
-└── README.md
-```
-
----
-
-## 🚀 Getting Started
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/yourusername/battery-binder-analysis.git
-cd battery-binder-analysis
-```
-
-### 2. Install dependencies
-```bash
-pip install pandas numpy matplotlib seaborn scipy
-```
-
-### 3. Generate data & run analysis
-```bash
-python generate_data.py
-python run_all.py
-```
-
-### 4. View individual analyses
-```bash
-python 01_capacity_fade_analysis.py   # Capacity & SOH
-python 02_dqdv_analysis.py            # dQ/dV plots
-python 03_efficiency_resistance.py    # CE & DCIR
-python 04_statistical_analysis.py     # Stats & rate capability
-```
-
----
 
 ## 📊 Key Results
 
@@ -116,26 +66,6 @@ python 04_statistical_analysis.py     # Stats & rate capability
 | 11 | `11_statistical_distribution.png` | Capacity distributions |
 | 12 | `12_radar_chart.png` | Multi-metric binder benchmarking |
 
----
-
-## 🔧 Dependencies
-
-```
-python >= 3.8
-pandas
-numpy
-matplotlib
-seaborn
-scipy
-```
-
----
-
-## 📚 Related Publication
-
-Alexander, R. A. et al. (2024) *In-situ formation of Zn-MOF coating on MgO/HA composite layer produced by plasma electrolytic oxidation on Mg-Sn-Mn-Ca alloy for orthopedic internal fixation devices.* Journal of Asian Ceramic Societies, 12(3), 215–226. [DOI: 10.1080/21870764.2024.2351658](https://doi.org/10.1080/21870764.2024.2351658)
-
----
 
 ## 📬 Contact
 
